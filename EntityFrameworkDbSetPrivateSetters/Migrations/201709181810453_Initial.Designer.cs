@@ -7,13 +7,13 @@ namespace EntityFrameworkDbSetPrivateSetters.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Person : IMigrationMetadata
+    public sealed partial class Initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Person));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201709161817219_Person"; }
+            get { return "201709181810453_Initial"; }
         }
         
         string IMigrationMetadata.Source
